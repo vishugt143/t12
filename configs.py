@@ -3,7 +3,7 @@ from os import getenv
 class Config:
     API_ID = int(getenv("API_ID", "21419016"))
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
-    BOT_TOKEN = getenv("BOT_TOKEN", "8460604576:AAGRvVwRo9IokV8JU2vzTyUJ7lROkH2IgNE)
+    BOT_TOKEN = getenv("BOT_TOKEN", "8460604576:AAGRvVwRo9IokV8JU2vzTyUJ7lROkH2IgNE")
 
     # Admin / Owner IDs
     SUDO = list(map(int, getenv(
@@ -18,8 +18,9 @@ class Config:
 
     # Posts to copy
     POSTS = [
-        "https://t.me/forward_hack_lnx/8",
-        "https://t.me/forward_hack_lnx/10"
+        "https://t.me/forward_hack_lnx/47",
+        "https://t.me/forward_hack_lnx/49",
+        "https://t.me/forward_hack_lnx/50"
     ]
 
     # 🚫 ILLEGAL WORDS (BOT SIDE FILTER)
